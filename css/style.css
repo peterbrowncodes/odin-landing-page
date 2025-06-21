@@ -1,9 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     font-family: 'Roboto', arial, sans-serif;
     background-color: #ffffff;
 }
 
-.hero-section {
+.header,.hero-section {
     background-color: #1F2937;
     color: #F9FaF8;
     font-weight: 500;
@@ -37,6 +42,7 @@ body {
 
 .footer {
     background-color: #1F2937;
+    color: #FFFFFF;
 }
 
 .container {}
@@ -47,7 +53,7 @@ body {
 
 .button {
     background-color: #3882F6;
-    color: #FFFFFF;
+    color: #F9FaF8;
 }
 
 
