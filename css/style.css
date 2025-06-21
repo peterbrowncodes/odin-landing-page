@@ -1,5 +1,5 @@
 * {
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
 }
 
@@ -8,10 +8,22 @@ body {
     background-color: #ffffff;
 }
 
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
 .header,.hero-section {
     background-color: #1F2937;
     color: #F9FaF8;
     font-weight: 500;
+}
+
+.header a {
+    color: #ffffff;
 }
 
 .hero-section h1 {
@@ -25,7 +37,10 @@ body {
     font-weight: 300;
 }
 
-.secondary-section {}
+.right-links {
+    font-size: 18px;
+    color: #E5E7EB;
+}
 
 .information-section {
     color: #1F2937;
@@ -45,7 +60,9 @@ body {
     color: #FFFFFF;
 }
 
-.container {}
+.container {
+    width: 80%;
+}
 
 .logo {
     font-size: 24px;
@@ -56,5 +73,9 @@ body {
     color: #F9FaF8;
 }
 
+#header-logo {
+    font-size: 24px;
+    font-weight: bold;
+}
 
 
