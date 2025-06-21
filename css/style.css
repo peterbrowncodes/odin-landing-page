@@ -22,8 +22,17 @@ ul {
     font-weight: 500;
 }
 
+.header {
+    padding: 16px 0px;
+}
+
 .header a {
-    color: #ffffff;
+    color: #FFFFFF;
+}
+
+.right-links {
+    font-size: 18px;
+    color: #E5E7EB;
 }
 
 .hero-section h1 {
@@ -35,11 +44,6 @@ ul {
     font-size: 18px;
     color: #E5E7EB;
     font-weight: 300;
-}
-
-.right-links {
-    font-size: 18px;
-    color: #E5E7EB;
 }
 
 .information-section {
@@ -58,10 +62,12 @@ ul {
 .footer {
     background-color: #1F2937;
     color: #FFFFFF;
+    text-align: center;
 }
 
 .container {
     width: 80%;
+    max-width: 1200px;
 }
 
 .logo {
