@@ -1,21 +1,54 @@
 body {
     font-family: 'Roboto', arial, sans-serif;
-    background-color: ##ffffff;
+    background-color: #ffffff;
 }
 
-.hero-section {}
+.hero-section {
+    background-color: #1F2937;
+    color: #F9FaF8;
+    font-weight: 500;
+}
+
+.hero-section h1 {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.hero-section p {
+    font-size: 18px;
+    color: #E5E7EB;
+    font-weight: 300;
+}
 
 .secondary-section {}
 
-.information-section {}
+.information-section {
+    color: #1F2937;
+    font-weight: 900;
+    font-size: 36px;
+}
 
-.quote-section {}
+.quote-section {
+    background-color: #E5E7EB;
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 300;
+}
+
+.footer {
+    background-color: #1F2937;
+}
 
 .container {}
 
-.logo {}
+.logo {
+    font-size: 24px;
+}
 
-.button {}
+.button {
+    background-color: #3882F6;
+    color: #FFFFFF;
+}
 
 
 
