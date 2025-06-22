@@ -68,11 +68,14 @@ ul {
 }
 
 .hero-image {
-    padding: 0px 20px;
-    width: 400px;
+    margin: 0px 20px;
+    width: 600px;
     height: auto;
     display: block;
     background-color: gray;
+    color: #ffffff;
+    text-align: center;
+    vertical-align: middle;
 }
 
 .hero-section h1 {
